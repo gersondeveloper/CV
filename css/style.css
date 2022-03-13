@@ -1,0 +1,117 @@
+body{
+    width: 60%;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    padding: 0;
+}
+
+header{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+}
+
+figure{
+    margin: 0;
+    padding: 0;
+}
+
+figure img{
+    object-fit: cover;
+    height: 240px;
+    width: 250px;
+    scale: 100%;
+}
+
+header h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #A9A9A9;
+    font-size: 3rem;
+    margin: 0;
+}
+
+header h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #157698;
+    font-size: 2rem;
+}
+
+header h1 strong{
+    font-weight: 900;
+    color: #157698;
+}
+
+header .description{
+    width: 100%;
+    margin-left: 50px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+header .description h2{
+    margin-top:0px;
+}
+
+.details{
+    padding: 10px;
+    border-top: #ababab solid 1px;
+    border-bottom: #ababab solid 1px;
+}
+
+#linkedin-profile{
+    color: #000;
+    text-decoration: none;
+}
+
+.details table{
+    width: 100%;
+}
+
+.details table .center-image{
+    text-align: center;
+    vertical-align: center;
+}
+
+#item1{
+    flex-direction: row;
+    align-content: center;
+    align-self: center;
+}
+
+/*main style*/
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 10px;
+}
+
+main h1 {
+    font-weight: 900;
+    color: #157698;
+}
+
+.general-information{
+    flex: 1;
+}
+
+.work-experience{
+    flex: 2;
+}
+
+
+
+
