@@ -1,46 +1,71 @@
 body{
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6{
+body h1,h2,h3,h4,h5,h6 {
+    margin: 0;
     padding: 0;
+}
+
+body a{
+    text-decoration: #0a53be;
+}
+
+body p{
+    color: #6c757d;
 }
 
 header{
+    border: #e0e0e0 2px solid;
+    border-radius: 10px;
     margin-top: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+}
+
+.back-image{
     position: relative;
+    height: 300px;
+    width: 100%;
+    background-image: url("../assets/images/AdobeStock_434581462.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: inherit;
 }
 
-figure{
-    margin: 0;
-    padding: 0;
-}
-
-figure img{
+header img{
     object-fit: cover;
-    height: 240px;
-    width: 250px;
-    scale: 100%;
+    width: 200px;
+    height:200px;
+    border-radius: 100%;
+    border: #fff 3px solid;
+    position: absolute;
+    left: 50px;
+    bottom: -100px;
 }
 
-header h1{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    color: #A9A9A9;
-    font-size: 3rem;
-    margin: 0;
+main{
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    border: #6c757d 1px solid;
+    border-top: 20px;
 }
 
-header h2{
+section{
+    margin-top: 10px;
+    border-radius: 8px;
+    border: #e0e0e0 2px solid;
+    padding: 20px;
+}
+
+section h1{
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-weight: 900;
     color: #157698;
     font-size: 2rem;
+    margin: 0;
 }
 
 header h1 strong{
@@ -48,70 +73,7 @@ header h1 strong{
     color: #157698;
 }
 
-header .description{
-    width: 100%;
-    margin-left: 50px;
-    height: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 10px;
+.container{
+    margin-top: 100px;
 }
-
-header .description h2{
-    margin-top:0px;
-}
-
-.details{
-    padding: 10px;
-    border-top: #ababab solid 1px;
-    border-bottom: #ababab solid 1px;
-}
-
-#linkedin-profile{
-    color: #000;
-    text-decoration: none;
-}
-
-.details table{
-    width: 100%;
-}
-
-.details table .center-image{
-    text-align: center;
-    vertical-align: center;
-}
-
-#item1{
-    flex-direction: row;
-    align-content: center;
-    align-self: center;
-}
-
-/*main style*/
-
-main{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    gap: 10px;
-    padding: 10px;
-}
-
-main h1 {
-    font-weight: 900;
-    color: #157698;
-}
-
-.general-information{
-    flex: 1;
-}
-
-.work-experience{
-    flex: 2;
-}
-
-
-
 
