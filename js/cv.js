@@ -1,5 +1,3 @@
-$(document).ready(function(){
-
     google.charts.load("current", {packages:["corechart"]});
     google.charts.setOnLoadCallback(drawChart);
     function drawChart() {
@@ -82,4 +80,3 @@ $(document).ready(function(){
         let chartGol = new google.visualization.PieChart(document.getElementById('piechart_3d_gol'));
         chartGol.draw(golData, options);
     }
-});
