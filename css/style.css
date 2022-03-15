@@ -1,3 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+@media screen (768px){
+    .personal-information{
+        margin-top:0;
+    }
+
+    .container{
+        margin-top:0;
+    }
+}
+
 body{
     padding: 30px 0 30px 0;
     width: 70%;
@@ -23,6 +37,10 @@ header{
     border: #e0e0e0 2px solid;
     border-radius: 10px;
     background-color: #fff;
+}
+
+.personal-information{
+    margin-top: 100px;
 }
 
 .back-image{
